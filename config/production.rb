@@ -27,3 +27,5 @@ end
 after_fork do |server, worker|
   defined?(ActiveRecord::Base) and ActiveRecord::Base.establish_connection
 end
+
+sudo vi /etc/nginx/conf.d/AWSSample.conf
